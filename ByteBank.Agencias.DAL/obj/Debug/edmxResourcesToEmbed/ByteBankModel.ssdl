@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ByteBankModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Agencias">
+    <Key>
+      <PropertyRef Name="Numero" />
+    </Key>
+    <Property Name="Numero" Type="nchar" MaxLength="5" Nullable="false" />
+    <Property Name="Nome" Type="nchar" MaxLength="256" />
+    <Property Name="Descricao" Type="nchar" MaxLength="256" />
+    <Property Name="Endereco" Type="nchar" MaxLength="256" />
+    <Property Name="Telefone" Type="nchar" MaxLength="16" />
+  </EntityType>
+  <EntityContainer Name="ByteBankModelStoreContainer">
+    <EntitySet Name="Agencias" EntityType="Self.Agencias" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

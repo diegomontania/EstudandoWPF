@@ -1,0 +1,14 @@
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\bin\Debug\ByteBank.mdf
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\bin\Debug\ByteBank_log.ldf
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\bin\Debug\ByteBank.Agencias.DAL.dll.config
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\bin\Debug\ByteBank.Agencias.DAL.dll
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\bin\Debug\ByteBank.Agencias.DAL.pdb
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\obj\Debug\ByteBank.Agencias.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\obj\Debug\ByteBank.Agencias.DAL.csproj.CopyComplete
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\obj\Debug\ByteBank.Agencias.DAL.dll
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\obj\Debug\ByteBank.Agencias.DAL.pdb
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ByteBank.Agencias.DAL\obj\Debug\ByteBank.Agencias.DAL.csprojAssemblyReference.cache

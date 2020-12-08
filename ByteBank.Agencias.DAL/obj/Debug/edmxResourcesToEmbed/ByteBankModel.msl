@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ByteBankModelStoreContainer" CdmEntityContainer="ByteBankEntities2">
+    <EntitySetMapping Name="Agencias">
+      <EntityTypeMapping TypeName="ByteBankModel.Agencia">
+        <MappingFragment StoreEntitySet="Agencias">
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

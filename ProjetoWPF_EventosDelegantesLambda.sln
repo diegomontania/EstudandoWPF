@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoWPF_EventosDelegantesLambda", "ProjetoWPF_EventosDelegantesLambda\ProjetoWPF_EventosDelegantesLambda.csproj", "{FBFE803E-2A1C-4C5A-A264-530D849071A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank.Agencias.DAL", "ByteBank.Agencias.DAL\ByteBank.Agencias.DAL.csproj", "{9B6D9421-2DF4-4A84-8C13-B3DE457FEA2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBFE803E-2A1C-4C5A-A264-530D849071A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFE803E-2A1C-4C5A-A264-530D849071A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFE803E-2A1C-4C5A-A264-530D849071A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFE803E-2A1C-4C5A-A264-530D849071A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B6D9421-2DF4-4A84-8C13-B3DE457FEA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6D9421-2DF4-4A84-8C13-B3DE457FEA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6D9421-2DF4-4A84-8C13-B3DE457FEA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6D9421-2DF4-4A84-8C13-B3DE457FEA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8291285F-56A0-4CFA-956A-6B51EDCB12B5}
+	EndGlobalSection
+EndGlobal
