@@ -25,3 +25,4 @@ C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ProjetoWPF_Evento
 C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ProjetoWPF_EventosDelegantesLambda\obj\Debug\ProjetoWPF_EventosDelegantesLambda.csproj.CopyComplete
 C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ProjetoWPF_EventosDelegantesLambda\obj\Debug\ProjetoWPF_EventosDelegantesLambda.exe
 C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ProjetoWPF_EventosDelegantesLambda\obj\Debug\ProjetoWPF_EventosDelegantesLambda.pdb
+C:\Users\Diego\source\repos\ProjetoWPF_EventosDelegantesLambda\ProjetoWPF_EventosDelegantesLambda\obj\Debug\GeneratedInternalTypeHelper.g.cs

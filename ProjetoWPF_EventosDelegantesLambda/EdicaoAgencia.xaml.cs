@@ -1,5 +1,6 @@
 ﻿using ByteBank.Agencias.DAL;
 using System;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -61,42 +62,45 @@ namespace ProjetoWPF_EventosDelegantesLambda
             btnOk.Click += okEventHandler;
             btnCancelar.Click += cancelarEventHandler;
 
-            txtNome.TextChanged += ValidarCampoNulo;
-            txtDescricao.TextChanged += ValidarCampoNulo;
-            txtEndereco.TextChanged += ValidarCampoNulo;
-            txtNumero.TextChanged += ValidarCampoNulo;
-            txtTelefone.TextChanged += ValidarCampoNulo;
+            txtNumero.MinhaValidacao += ValidarCampoNulo;
+            txtNumero.MinhaValidacao += ValidarSomenteDigito;
+
+            txtNome.MinhaValidacao += ValidarCampoNulo;
+            txtDescricao.MinhaValidacao += ValidarCampoNulo;
+            txtEndereco.MinhaValidacao += ValidarCampoNulo;
+            txtTelefone.MinhaValidacao += ValidarCampoNulo;
+        }
+
+        private void ValidarSomenteDigito(object sender, ValidacaoEventArgs e)
+        {
+            //verifica o caractere e retorna boleano
+            var ehValido = e.Texto.All(char.IsDigit);
+            e.EhValido = ehValido;
         }
 
         #region Metodo que retorna um delegate
-            //utilizacao
-            //txtNome.TextChanged += ConstruirDelegateValidacaoCampoNulo(txtNome);
-            //private TextChangedEventHandler ConstruirDelegateValidacaoCampoNulo(TextBox txt)
-            //{
-            //    //usando expressão lambda para o retorno
-            //    return (o, e) =>
-            //    {
-            //        var textoEstaVazio = String.IsNullOrEmpty(txtNome.Text);
+        //utilizacao
+        //txtNome.TextChanged += ConstruirDelegateValidacaoCampoNulo(txtNome);
+        //private TextChangedEventHandler ConstruirDelegateValidacaoCampoNulo(TextBox txt)
+        //{
+        //    //usando expressão lambda para o retorno
+        //    return (o, e) =>
+        //    {
+        //        var textoEstaVazio = String.IsNullOrEmpty(txtNome.Text);
 
-            //        if (textoEstaVazio)
-            //            txtNome.Background = new SolidColorBrush(Colors.OrangeRed);
-            //        else
-            //            txtNome.Background = new SolidColorBrush(Colors.White);
-            //    };
-            //}
-            #endregion
+        //        if (textoEstaVazio)
+        //            txtNome.Background = new SolidColorBrush(Colors.OrangeRed);
+        //        else
+        //            txtNome.Background = new SolidColorBrush(Colors.White);
+        //    };
+        //}
+        #endregion
 
         //metodo que retorna um delegate
-        //se o campo estiver vazio mude a cor para laranja
-        private void ValidarCampoNulo(object sender, EventArgs e)
+        private void ValidarCampoNulo(object sender, ValidacaoEventArgs e)
         {
-            var txt = sender as TextBox;
-            var textoEstaVazio = String.IsNullOrEmpty(txt.Text);
-
-            if (textoEstaVazio)
-                txt.Background = new SolidColorBrush(Colors.OrangeRed);
-            else
-                txt.Background = new SolidColorBrush(Colors.White);
+            var ehValido = !String.IsNullOrEmpty(e.Texto);
+            e.EhValido = ehValido;
         }
 
         private void Fechar(object sender, EventArgs e) =>
